@@ -4,6 +4,7 @@
     {
         public string Url { get; set; }
         public int DelayClose { get; set; }
+        public int DelayRedirect { get; set; }
         public bool HideWindow { get; set; }
         public LoginInfo LoginInfo { get; set; }
         public StepXpath StepXpath { get; set; }
